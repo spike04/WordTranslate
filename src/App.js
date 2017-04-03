@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import TranslateForm from './components/TranslateForm';
 import TranslateOutput from './components/TranslateOutput';
-const key = "trnsl.1.1.20170401T074425Z.a246f2e42a791ac5.a7d303ee3c1fbca9bc85d0e97cb7a18f13999136";
+const key = {FREE_API_KEY_FROM_YANDEX};
 
 class App extends Component {
   constructor() {
